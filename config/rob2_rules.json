@@ -1,0 +1,58 @@
+{
+  "assessment_framework": "Cochrane_RoB_2",
+  "version": "2019-08-22",
+  "bias_domains": {
+    "Randomization Process": {
+      "signaling_questions": {
+        "Q1.1": "Was the allocation sequence random?",
+        "Q1.2": "Was the allocation sequence concealed until participants were enrolled and assigned?",
+        "Q1.3": "Did baseline differences suggest a problem with the randomization process?"
+      }
+    },
+    "Deviations from Intended Interventions": {
+      "components": {
+        "2A": {
+          "name": "Blinding and Protocol Deviations",
+          "signaling_questions": {
+            "Q2.1": "Were participants aware of their assigned intervention?",
+            "Q2.2": "Were personnel aware of the assigned intervention?",
+            "Q2.3": "Were there deviations from the intended intervention due to the trial context?",
+            "Q2.4": "Were these deviations likely to have affected the outcome?",
+            "Q2.5": "Were these deviations balanced between groups?"
+          }
+        },
+        "2B": {
+          "name": "Analysis Method (ITT)",
+          "signaling_questions": {
+            "Q2.6": "Was an appropriate analysis (e.g., ITT) used to estimate the effect of assignment?",
+            "Q2.7": "Was there potential for a substantial impact from failure to analyze by assigned group?"
+          }
+        }
+      }
+    },
+    "Missing Outcome Data": {
+      "signaling_questions": {
+        "Q3.1": "Were outcome data available for all or nearly all participants?",
+        "Q3.2": "Is there evidence that the result was not biased by missing outcome data?",
+        "Q3.3": "Could missingness in the outcome depend on its true value?",
+        "Q3.4": "Is it likely that missingness in the outcome depended on its true value?"
+      }
+    },
+    "Measurement of the Outcome": {
+      "signaling_questions": {
+        "Q4.1": "Was the method of measuring the outcome inappropriate?",
+        "Q4.2": "Could measurement or ascertainment of the outcome have differed between groups?",
+        "Q4.3": "Were outcome assessors aware of the intervention received?",
+        "Q4.4": "Could assessment of the outcome have been influenced by knowledge of intervention?",
+        "Q4.5": "Is it likely that assessment of the outcome was influenced by knowledge of intervention?"
+      }
+    },
+    "Selection of the Reported Result": {
+      "signaling_questions": {
+        "Q5.1": "Was the analysis conducted in accordance with a pre-specified plan?",
+        "Q5.2": "Is the reported result likely to have been selected from multiple eligible outcome measurements?",
+        "Q5.3": "Is the reported result likely to have been selected from multiple eligible analyses of the data?"
+      }
+    }
+  }
+}

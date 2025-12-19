@@ -1,0 +1,76 @@
+{
+  "assessment_framework": "ROBINS-I V2",
+  "version": "2024-11-22",
+  "bias_domains": {
+    "Confounding": {
+      "signaling_questions": {
+        "Q1.1": "Were all the important confounding factors considered in the study? (Answer: Y, PY, WN, SN, or NI)",
+        "Q1.2": "Were confounding factors that were controlled for measured validly and reliably? (Answer: Y, PY, WN, SN, or NI)",
+        "Q1.3": "Did the authors control for time-varying factors or other variables measured after the start of intervention? (Answer: Y, PY, N, PN, or NI)",
+        "Q1.4": "Was an appropriate analysis method used to control for time-varying confounding factors? (Answer: Y, PY, N, PN, or NI)"
+        }
+    },
+    "Classification of Interventions": {
+      "signaling_questions": {
+        "Q2.1": "Was intervention status defined using information recorded at or before the start of follow-up? (Answer: Y, PY, N, PN, or NI)",
+        "Q2.2": "Were participants included in the comparator group until they fulfilled the definition of the intervention? (Answer: SY, N, PN, WY, or NI)",
+        "Q2.3": "Was all information used to classify intervention and comparator groups recorded at or before the time the interventions started? (Answer: Y, PY, N, PN, or NI)",
+        "Q2.4": "Was knowledge of the outcome likely to have influenced classification of intervention status? (Answer: SY, WY, N, PN, or NI)",
+        "Q2.5": "Was intervention status classified correctly for all, or nearly all, participants? (Answer: Y, PY, SN, WN, or NI)"
+      }
+    },
+    "Selection of Participants into the Study": {
+      "signaling_questions": {
+        "Q3.1": "Was the intervention defined using information recorded at or before the start of follow-up? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.2": "Were participants excluded after the start of follow-up because they did not meet the definition of either the intervention or the comparator? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.3": "Was the effect of intervention expected to be constant over the time period studied? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.4": "Were participants excluded after the start of follow-up based on characteristics observed after the start of intervention? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.5": "Was selection of participants into the study based on participant characteristics observed after the start of intervention? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.6": "Were the post-intervention variables that influenced selection likely to be associated with intervention? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.7": "Were the post-intervention variables that influenced selection likely to be influenced by the outcome or a cause of the outcome? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.8": "Is it likely that the analysis corrected for all of the potential selection biases? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.9": "Did sensitivity analyses demonstrate minimal impact of selection biases? (Answer: Y, PY, N, PN, or NI)",
+        "Q3.10": "Were potential selection biases severe enough to exclude from synthesis? (Answer: Y, PY, N, PN, or NI)"
+      }
+    },
+    "Deviations from Intended Interventions": {
+      "signaling_questions": {
+        "Q4.1": "Did all or nearly all participants adhere to their assigned intervention strategy? (Answer: Y, PY, N, PN, or NI)",
+        "Q4.2": "Were the protocol deviations likely to have affected the outcome? (Answer: Y, PY, N, PN, or NI)",
+        "Q4.3": "Were the protocol deviations balanced between groups? (Answer: Y, PY, N, PN, or NI)",
+        "Q4.4": "Was an appropriate analysis used to estimate the per-protocol effect? (Answer: Y, PY, N, PN, or NI)",
+        "Q4.5": "Was intervention discontinuation likely to have been influenced by knowledge of the outcome? (Answer: Y, PY, WN, SN, or NI)"
+      }
+    },
+    "Missing Outcome Data": {
+      "signaling_questions": {
+        "Q5.1": "Were complete data on the outcome available for all, or nearly all, participants? (Answer: Y, PY, WY, N, PN, SN, or NI)",
+        "Q5.2": "Were complete data on the intervention available for all, or nearly all, participants? (Answer: Y, PY, WY, N, PN, SN, or NI)",
+        "Q5.3": "Were complete data on all important confounding variables available for all, or nearly all, participants? (Answer: Y, PY, WY, N, PN, SN, or NI)",
+        "Q5.4": "Is the result based on a complete case analysis? (Answer: Y, PY, N, PN, or NI)",
+        "Q5.5": "Is there evidence that the result was not biased by missing data? (Answer: Y, PY, N, PN, or NI)",
+        "Q5.6": "Is the relationship between outcome and missingness explained by variables in the model? (Answer: Y, WY, SN, NI)",
+        "Q5.7": "Was the analysis based on imputing missing values? (Answer: Y, PY, N, PN, or NI)",
+        "Q5.8": "Is it reasonable to assume data were MAR or MCAR? (Answer: Y, PY, N, PN, or NI)",
+        "Q5.9": "Was imputation performed appropriately? (Answer: Y, PY, WN, SN, or NI)",
+        "Q5.10": "Was an appropriate alternative method used to correct for bias? (Answer: Y, PY, WN, SN, or NI)",
+        "Q5.11": "Is there evidence that the result was not biased by missing data? (Answer: Y, PY, N, PN, or NI)"
+      }
+    },
+    "Measurement of the Outcome": {
+      "signaling_questions": {
+        "Q6.1": "Was the method of measuring the outcome inappropriate? (Answer: Y, PY, N, PN, or NI)",
+        "Q6.2": "Could measurement or ascertainment of the outcome have differed between groups? (Answer: Y, PY, N, PN, or NI)",
+        "Q6.3": "Could assessment of the outcome have been influenced by knowledge of intervention? (Answer: SY, WY, N, PN, or NI)"
+      }
+    },
+    "Selection of the Reported Result": {
+      "signaling_questions": {
+        "Q7.1": "Was the analysis conducted in accordance with a pre-specified plan? (Answer: Y, PY, N, PN, or NI)",
+        "Q7.2": "Is the reported result likely to have been selected from multiple eligible outcome measurements? (Answer: Y, PY, N, PN, or NI)",
+        "Q7.3": "Is the reported result likely to have been selected from multiple eligible analyses? (Answer: Y, PY, N, PN, or NI)",
+        "Q7.4": "Is the reported result likely to have been selected from multiple eligible intervention groups? (Answer: Y, PY, N, PN, or NI)"
+      }
+    }
+  }
+}
