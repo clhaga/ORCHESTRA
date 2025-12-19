@@ -1,4 +1,4 @@
-# Orchestra: Clinical Trials Analysis Agent
+# ORCHESTRA: Clinical Trials Analysis Agent
 
 Orchestra is a comprehensive Python tool for analyzing clinical trials literature. It automates the process of searching, downloading, and analyzing medical studies from PubMed Central (PMC), providing evidence-based synthesis for clinical research questions.
 
